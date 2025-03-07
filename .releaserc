@@ -5,5 +5,5 @@ plugins:
   - "@semantic-release/changelog"
   - "@semantic-release-github-pullrequest"
   - "@semantic-release/github"
-  - - "@qiwi/semantic-release-gh-pages-plugin"
-    - src: site
+  # - - "@qiwi/semantic-release-gh-pages-plugin"
+  #   - src: site
