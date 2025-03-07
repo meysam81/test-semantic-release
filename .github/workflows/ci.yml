@@ -11,8 +11,10 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    environment: docs
     permissions:
       contents: write
+      pages: write
       issues: write
       pull-requests: write
       id-token: write
