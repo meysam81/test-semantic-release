@@ -27,12 +27,7 @@ jobs:
         with:
           bun-version: latest
       - name: Install deps
-        run: |
-          bun i -g \
-            "@semantic-release/changelog" \
-            "@semantic-release-docker" \
-            "@semantic-release-github-pages" \
-            "@semantic-release-github-pullrequest"
+        run: bun install
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

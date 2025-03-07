@@ -3,8 +3,7 @@ debug: true
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
-  - "@semantic-release/github"
   - "@semantic-release/changelog"
-  - "@semantic-release-docker"
-  - "@semantic-release-github-pages"
-  - "@semantic-release-github-pullrequest"
+  - "@semantic-release/github"
+  # - "@semantic-release-github-pages"
+  # - "@semantic-release-github-pullrequest"
